@@ -1,0 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #eff6f8;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.container {
+  max-width: 1380px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.container-right {
+  padding-left: calc((100% - 1380px) / 2 + 10px);
+}
+.title {
+  font-family: 'Museo Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  color: #024873;
+}
+.button {
+  font-size: 18px;
+  padding: 14px 36px 15px 35px;
+  background: #ff843f;
+  border-radius: 40px;
+  color: #fff;
+  line-height: 21px;
+}
